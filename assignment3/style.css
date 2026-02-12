@@ -1,0 +1,41 @@
+/* Anything between these two tags will be ignored by the browser */
+
+h1 {
+    color: red;
+}
+
+p {
+    color:#ff3366;
+    background-color: rgb(249, 204, 6);
+}
+
+
+span {
+    color: pink;
+    background-color: beige;
+}
+
+b {
+  color: #ff0000;
+}
+
+a {
+  color: #ff0000;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: yellow;
+}        
+
