@@ -1,0 +1,64 @@
+/* Anything between these two tags will be ignored by the browser */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered-paragraph {
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+color:orange;
+font-style: italic;
+font-weight: normal;
+}
+p {
+    color:#ff3366;
+    background-color: rgb(249, 204, 6);
+}
+
+.image-with-double-border {
+  
+  border: 10px solid #FFD700; 
+  
+  
+  outline: 10px solid #000000; 
+  
+ 
+  outline-offset: 5px; 
+}
+
+
+
+.customtext {
+  font-family:Arial, Helvetica, sans-serif 
+}
+
+span {
+    color: pink;
+    background-color: beige;
+}
+
+b {
+  color: #ff0000;
+}
+
+a {
+  color: #ff0000;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: yellow;
+}        
+
