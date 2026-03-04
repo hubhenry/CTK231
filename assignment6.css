@@ -1,0 +1,144 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('a62.png');
+  background-repeat: repeat;
+  background-color: #d9737a;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+#page-wrapper {
+  width: 860px;
+  background-color: #ffffff;
+  border: 3px solid #222222;
+}
+
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 18px 20px;
+  font-size: 2em;
+}
+
+
+#main-content {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 0;
+}
+
+
+#nav-column {
+  padding: 10px 10px 10px 10px;
+}
+
+#nav-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#nav-column ul li a {
+  display: block;
+  background-color: #cc2222;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.95em;
+  text-decoration: none;
+  padding: 10px 14px;
+}
+
+#nav-column ul li a:hover {
+  background-color: #8b0000;
+}
+
+
+#body-column {
+  padding: 14px 16px 14px 10px;
+  border-left: 1px solid #cccccc;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.35em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #999;
+  padding-bottom: 6px;
+}
+
+
+#top-section {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+#top-section img {
+  width: 100%;
+  border: 2px solid #555555;
+  display: block;
+}
+
+#top-paragraphs p {
+  font-family: Georgia, serif;
+  font-size: 0.88em;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+#lower-paragraphs p {
+  font-family: Georgia, serif;
+  font-size: 0.88em;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+
+#lower-paragraphs a:link,
+#lower-paragraphs a:visited {
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#lower-paragraphs a:hover {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+
+#footer {
+  background-color: #cc2222;
+  padding: 14px 20px;
+}
+
+#footer p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
